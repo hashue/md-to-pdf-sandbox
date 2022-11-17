@@ -1,5 +1,7 @@
 # HOGE
 
 ```mermaid
-st(["start"])
+flowchart TD
+  ST(["HOGE"])
 ```
+
