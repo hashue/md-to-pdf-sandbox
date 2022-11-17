@@ -1,1 +1,5 @@
 # HOGE
+
+```mermaid
+st(["start"])
+```
