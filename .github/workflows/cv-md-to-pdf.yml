@@ -25,7 +25,7 @@ jobs:
           cache: 'npm'
 
       - name: Convert markdwon to pdf
-        run: npx md-to-pdf ./*.md
+        run: npm init --yes && npx md-to-pdf ./*.md
 
       - name: Commit output pdf files
         uses: stefanzweifel/git-auto-commit-action@v4
