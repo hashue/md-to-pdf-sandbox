@@ -1,7 +1,7 @@
 name: Convert to markdown to PDF
 on: 
-push:
-  branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   build:
